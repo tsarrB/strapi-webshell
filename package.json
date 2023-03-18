@@ -1,0 +1,68 @@
+{
+  "name": "strapi-webshell",
+  "version": "1.0.0",
+  "description": "Integrate web shell into your Strapi application.",
+  "strapi": {
+    "name": "strapi-webshell",
+    "description": "Integrate web shell into your Strapi application.",
+    "kind": "plugin",
+    "displayName": "Webshell"
+  },
+  "dependencies": {
+    "node-pty": "^0.10.1",
+    "socket.io": "^4.6.1",
+    "socket.io-client": "^4.6.1",
+    "xterm": "^5.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.0",
+    "@babel/eslint-parser": "^7.19.1",
+    "@babel/preset-react": "^7.18.6",
+    "eslint": "^8.16.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsdoc": "^40.0.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "husky": "3.0.0",
+    "lint-staged": "10.5.4",
+    "npm-run-all": "^4.1.5"
+  },
+  "author": {
+    "name": "Bohdan Tsaryk",
+    "email": "bogdan.tsaryk@gmail.com",
+    "url": "https://github.com/tsarrB/strapi-webshell"
+  },
+  "homepage": "https://github.com/tsarrB/strapi-webshell#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tsarrB/strapi-webshell.git"
+  },
+  "maintainers": [
+    {
+      "name": "AsyncWeb Technology",
+      "email": "support@asyncweb.io",
+      "url": "https://higheredlab.com/"
+    }
+  ],
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT",
+  "keywords": [
+    "strapi",
+    "strapi-plugin",
+    "strapi-webshell",
+    "shell",
+    "shell-admin",
+    "terminal",
+    "web terminal",
+    "strapi-terminal",
+    "open-source"
+  ]
+}
